@@ -1,0 +1,149 @@
+<%- include("header.ejs") %>
+<body>
+<%- include("navigation.ejs") %>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 class="hero-title">
+        <span class="title-line">Hi, I'm</span>
+        <span class="title-line accent">Shrikant More</span>
+        <span class="title-line">Web Developer</span>
+      </h1>
+      <p class="hero-description">
+        A passionate developer focused on building clean, responsive, and user-friendly web applications.  
+        I love turning ideas into reality using modern technologies and creative design.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://github.com/shrikantmore123" target="_blank" class="btn btn-primary">Visit Github</a>
+        <a href="/resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card card-1">
+        <div class="card-content">
+          <div class="card-icon">🧩</div>
+          <h3>Problem Solving</h3>
+        </div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="card-content">
+          <div class="card-icon">💻</div>
+          <h3>Development</h3>
+        </div>
+      </div>
+      <div class="floating-card card-3">
+        <div class="card-content">
+          <div class="card-icon">⚡</div>
+          <h3>Performance</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Passionate about learning & building</p>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I’m Shrikant More, a web developer focused on creating clean, responsive, and
+          user-friendly applications. My goal is to build digital experiences that not only
+          look great but also work seamlessly across devices.
+        </p>
+        <p>
+          With hands-on practice in HTML, CSS, JavaScript, and Node.js (Express + EJS),
+          I enjoy turning ideas into reality through code. I’m constantly exploring new
+          tools and technologies to improve my skills and deliver better solutions.
+        </p>
+        <p>
+          Outside of coding, I’m passionate about solving problems, learning from challenges,
+          and building projects that make a positive impact.
+        </p>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-icon">🎯</div>
+            <h4>Strategy</h4>
+            <p>User research & planning</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">✨</div>
+            <h4>Design</h4>
+            <p>UI/UX & visual design</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">⚡</div>
+            <h4>Development</h4>
+            <p>Frontend & backend</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <div class="image-placeholder">
+          <div class="profile-avatar">SM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">Feel free to reach out anytime</p>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+        <div>
+          <h4>Email</h4>
+          <p>shrikantmore008@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+      <div>
+      <h4>Phone</h4>
+      <p>+91 9XXXXXXXXX</p>
+    </div>
+    </div>
+    <div class="contact-item">
+    <div class="contact-icon">📍</div>
+    <div>
+    <h4>Location</h4>
+    <p>Pune, India</p>
+    </div>
+    </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<%- include("footer.ejs") %>
